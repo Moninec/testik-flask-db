@@ -1,7 +1,7 @@
 #importování třídy Fask pro vytvoření aplikace, render_template pro renderování html šablon, request umožnuje přístup k zadaným datům uživatele
 from flask import Flask, render_template, request
 
-#
+#inicializace aplikace
 app = Flask(__name__)
 
 #definuje cestu url / (hlavni stranka aplikace)
